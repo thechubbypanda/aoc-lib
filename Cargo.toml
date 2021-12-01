@@ -2,7 +2,7 @@
 name = "aoc-lib"
 version = "0.1.0"
 edition = "2021"
-authors = "Keval Kapdee"
+authors = ["Keval Kapdee"]
 description = "A library that lets you focus on problem-solving rather than boilerplate when doing Advent of Code"
 license = "MIT"
 license-file = "LICENCE"
@@ -10,5 +10,5 @@ readme = "README.md"
 repository = "https://github.com/thechubbypanda/aoc-lib"
 
 [lib]
-name = "aoc-lib"
+name = "aoc"
 path = "src/lib.rs"
