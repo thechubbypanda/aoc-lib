@@ -1,0 +1,15 @@
+[package]
+name = "aoc-macro"
+version = "0.1.0"
+edition = "2021"
+authors = ["Keval Kapdee <keval@thechubbypanda.net>"]
+description = "Helper proc-macro library for aoc-lib"
+license = "MIT"
+readme = "../README.md"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = {version = "1.0.82", features = ["full"]}
+quote = "1.0.10"
