@@ -1,6 +1,6 @@
 [package]
 name = "aoc-lib"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = ["Keval Kapdee <keval@thechubbypanda.net>"]
 description = "A library that lets you focus on problem-solving rather than boilerplate when doing Advent of Code"
@@ -9,6 +9,5 @@ readme = "README.md"
 repository = "https://github.com/thechubbypanda/aoc-lib"
 
 [dependencies]
-aoc-macro = { path = "aoc-macro" }
 home = "0.5.3"
 reqwest = { version = "0.11.7", features = ["blocking"] }
