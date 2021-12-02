@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Keval Kapdee"]
 description = "A library that lets you focus on problem-solving rather than boilerplate when doing Advent of Code"
-license-file = "LICENCE"
+license = "MIT"
 readme = "README.md"
 repository = "https://github.com/thechubbypanda/aoc-lib"
 
