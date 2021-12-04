@@ -1,3 +1,7 @@
+pub fn to_lines(input: String) -> Vec<String> {
+    input.lines().map(String::from).collect()
+}
+
 pub fn transpose<T>(input: &Vec<Vec<T>>) -> Vec<Vec<T>>
 where
     T: Copy,
