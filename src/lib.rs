@@ -24,11 +24,7 @@ where
     F: Fn(String) -> R,
     R: Display,
 {
-    let input = std::fs::read_to_string("input/test.in")
-        .unwrap()
-        .lines()
-        .map(String::from)
-        .collect();
+    let input = std::fs::read_to_string("input/test.in").unwrap();
     let timer = Instant::now();
     println!("Output: {}", code(input));
     println!("Time: {:?}", timer.elapsed());
