@@ -3,9 +3,7 @@ use std::time::Instant;
 use client::Client;
 
 mod client;
-mod util;
-
-pub use util::*;
+pub mod util;
 
 pub fn run<F, R>(year: u16, day: u8, code: F)
 where
